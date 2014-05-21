@@ -1,23 +1,34 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  });
+  </script>
+  <style>
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 800px; }
+  #sortable li { border:0; margin: 0; padding: 0; float: left; width: 200px; height: 300px; font-size: 4em; text-align: center; }
+  </style>
+</head>
+<body>
 <a href="https://github.com/palfrey/obama-posters"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
-<table cellspacing="0" cellpadding="0">
-<tbody><tr>
-<td><img width="200" height="300" src="./images/Barack_Obama_Hope_poster.jpg"></td>
-<td><img width="200" height="300" src="./images/zim_obama_poster___doom___by_captainvendetta-d30hg2m.png"></td>
-<td><img width="200" height="300" src="./images/grumpy-cat-obama-poster-style.jpg"></td>
-<td><img width="200" height="300" src="./images/freedom_by_thefreeman_33-d3a95br.png"></td>
-</tr>
-<tr>
-<td><img width="200" height="300" src="./images/changeintoatruck-440x586.jpg"></td>
-<td><img width="200" height="300" src="./images/Obama_Poster_Kim_Nukes.png"></td>
-<td><img width="200" height="300" src="./images/2963571735_b3388ae726_o.jpg"></td>
-<td><img width="200" height="300" src="./images/moron__a_parody_of_obama_s_hope_poster___wheatley_by_gingermessiah-d6b2emv.png"></td>
-</tr>
-<tr>
-<td><img width="200" height="300" src="./images/zobama.jpg"></td>
-<td><img width="200" height="300" src="./images/6aa5443b81997f32be1307046ff1c93b-d50oof3.png"></td>
-<td><img width="200" height="300" src="./images/admiral_ackbar_obama_parody.jpg"></td>
-<td><img width="200" height="300" src="./images/anewhope.png"></td>
-</tr>
-</tbody></table></body></html>
+<ul id="sortable">
+<li class="ui-state-default"><img width="200" height="300" src="./images/Barack_Obama_Hope_poster.jpg"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/zim_obama_poster___doom___by_captainvendetta-d30hg2m.png"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/grumpy-cat-obama-poster-style.jpg"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/freedom_by_thefreeman_33-d3a95br.png"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/changeintoatruck-440x586.jpg"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/Obama_Poster_Kim_Nukes.png"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/2963571735_b3388ae726_o.jpg"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/moron__a_parody_of_obama_s_hope_poster___wheatley_by_gingermessiah-d6b2emv.png"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/zobama.jpg"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/6aa5443b81997f32be1307046ff1c93b-d50oof3.png"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/admiral_ackbar_obama_parody.jpg"></li>
+<li class="ui-state-default"><img width="200" height="300" src="./images/anewhope.png"></li>
+</ul>
+</body></html>
